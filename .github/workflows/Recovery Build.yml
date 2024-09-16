@@ -14,19 +14,19 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://gitlab.com/OrangeFox/device/lavender
+        default: https://github.com/grass2/device_xiaomi_peridot_twrp
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
-        default: fox_12.1
+        default: twrp-12.1
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/xiaomi/lavender
+        default: device/xiaomi/peridot
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
-        default: lavender
+        default: peridot
       BUILD_TARGET:
         type: choice
         description: Partition containing recovery ramdisk
