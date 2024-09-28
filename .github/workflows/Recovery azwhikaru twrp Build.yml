@@ -33,6 +33,10 @@ on:
         description: 'DEVICE_NAME'
         required: true
         default: 'peridot'
+      MODEL_NAME:
+        description: 'MODEL_NAME'
+        required: true
+        default: 'RedmiTurbo3_PocoF6_peridot_A14_grass2'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
