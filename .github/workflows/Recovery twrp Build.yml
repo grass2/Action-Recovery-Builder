@@ -18,11 +18,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/grass2/device_xiaomi_peridot_twrp'
+        default: 'https://github.com/grass2/twrp_turbo3_pre'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'twrp-12.1'
+        default: 'main'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
@@ -38,7 +38,7 @@ on:
       MODEL_NAME:
         description: 'MODEL_NAME'
         required: true
-        default: 'RedmiTurbo3_PocoF6_peridot_A14_grass2'
+        default: 'peridot_A14_grass2_pre'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
