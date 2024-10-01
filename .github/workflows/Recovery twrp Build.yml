@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/grass2/twrp_turbo3_pre'
+        default: 'https://github.com/grass2/twrp_turbo3'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -38,7 +38,7 @@ on:
       MODEL_NAME:
         description: 'MODEL_NAME'
         required: true
-        default: 'peridot_A14_grass2_pre'
+        default: 'peridot_A14_grass2_'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
