@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/TeamWin/android_device_asus_I003D
+        default: https://github.com/TeamWin/android_device_xiaomi_munch
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
@@ -26,11 +26,11 @@ on:
       DEVICE_PATH:
         description: Path the device tree should be synced to, relative to source root
         required: true
-        default: device/asus/I003D
+        default: device/xiaomi/munch
       DEVICE_NAME:
         description: Device Name from tree (should match name on twrp_<DEVICE_NAME>.mk)
         required: true
-        default: I003D
+        default: munch
       REPOPICK_PATCHES:
         description: (Optional) Gerrit commit numbers separated by a space to be included in the build (leave blank if not using)
         type: string
@@ -43,7 +43,7 @@ on:
         - recovery
         - vendor_boot
         required: true
-        default: recovery
+        default: boot
       RECOVERY_INSTALLER:
         description: Include recovery installer zip
         type: boolean
