@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_URL:
         description: Device Tree URL
         required: true
-        default: https://github.com/TeamWin/android_device_xiaomi_munch
+        default: https://github.com/grass2/twrp_munch
       DEVICE_TREE_BRANCH:
         description: Device Tree Branch
         required: true
